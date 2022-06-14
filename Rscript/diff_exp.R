@@ -574,7 +574,7 @@ dev.off()
 ####################################################################################
 
 # BIOMART OBJECT
-edb = useMart("ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl",host="jul2016.archive.ensembl.org")
+edb = useMart("ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl",host="dec2021.archive.ensembl.org")
 
 dirty_ensembl_id <-rownames(res)
 

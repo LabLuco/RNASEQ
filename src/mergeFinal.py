@@ -239,7 +239,7 @@ def parse_all_splicing_files(path_to_dir,list_as_type,dict_for_analysis, readsNu
     if(organism=="homo_sapiens") :
         prefix="hg38"
     if(organism=="mus_musculus") :
-        prefix="mm10"
+        prefix="mm39"
     
     
     dirToLookIn = os.path.dirname(path_to_dir)
